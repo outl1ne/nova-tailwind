@@ -1,0 +1,50 @@
+{
+  "name": "optimistdigital/nova-tailwind",
+  "description": "Tailwind loader for Laravel Nova.",
+  "keywords": [
+    "laravel",
+    "nova",
+    "tailwind",
+    "css"
+  ],
+  "authors": [
+    {
+      "name": "Tarvo Reinpalu",
+      "email": "tarvoreinpalu@gmail.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Optimist Digital",
+      "email": "info@optimistdigital.com",
+      "role": "Maintainer"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1.0",
+    "laravel/nova": "^1.0 || ^2.0 || ^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "OptimistDigital\\Tailwind\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "OptimistDigital\\Tailwind\\TailwindServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://nova.laravel.com"
+    }
+  ]
+}
