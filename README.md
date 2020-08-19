@@ -19,7 +19,7 @@ Just install with Composer and you're good to go!
 
 ## Conflicts
 
-The Tailwind configuration has been modified so it doesn't conflict with Laravel Nova's variation of Tailwind.
+The Tailwind configuration has been modified so it doesn't conflict with Laravel Nova's variation of Tailwind - **the package is meant to just fill in the gaps.**
 
 **If you do find some styles being overridden after installing this package, do make an issue and it can definitely be resolved.**
 
