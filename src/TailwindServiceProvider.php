@@ -1,11 +1,10 @@
 <?php
 
-namespace OptimistDigital\MultiselectField;
+namespace OptimistDigital\Tailwind;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\File;
 
 class FieldServiceProvider extends ServiceProvider
 {

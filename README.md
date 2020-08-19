@@ -3,7 +3,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/optimistdigital/nova-tailwind.svg?style=flat-square)](https://packagist.org/packages/optimistdigital/nova-tailwind)
 [![Total Downloads](https://img.shields.io/packagist/dt/optimistdigital/nova-tailwind.svg?style=flat-square)](https://packagist.org/packages/optimistdigital/nova-tailwind)
 
-This [Laravel Nova](https://nova.laravel.com) package loads the full Tailwind package in the Nova admin panel.
+This [Laravel Nova](https://nova.laravel.com) package loads the full Tailwind CSS in the Nova admin panel.
 
 ## Requirements
 
