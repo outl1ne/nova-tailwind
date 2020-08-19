@@ -11,7 +11,7 @@ class TailwindServiceProvider extends ServiceProvider
     public function boot()
     {
         Nova::serving(function (ServingNova $event) {
-            Nova::style('tailwind', __DIR__ . '/../dist/css/tailwind.css');
+            Nova::style('nova-tailwind', __DIR__ . '/../dist/tailwind.css');
         });
     }
 }
