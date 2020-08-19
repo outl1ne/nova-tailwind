@@ -8,6 +8,11 @@ module.exports = {
   future: {
     removeDeprecatedGapUtilities: true,
   },
+  corePlugins: {
+    fontSize: false,
+    fontFamily: false,
+    fontWeight: false,
+  },
   options: {
     prefix: '',
     important: false,
