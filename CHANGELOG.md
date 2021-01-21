@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.1.0] - 01-21-2021
 
+### Added
+
+- Added support for authentication screens (login etc)
+
 ### Changed
 
 - Updated packages (including Tailwind to 2.0)
