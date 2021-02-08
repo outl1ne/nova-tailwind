@@ -9,14 +9,14 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "laravel-mix": "^6.0.10",
-    "postcss": "^8.2.4",
+    "laravel-mix": "^6.0.11",
+    "postcss": "^8.2.5",
     "prettier": "^2.2.1",
     "resolve-url-loader": "^3.1.2",
-    "sass": "^1.32.5",
-    "sass-loader": "^10.1.1"
+    "sass": "^1.32.6",
+    "sass-loader": "^11.0.0"
   },
   "dependencies": {
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "^2.0.3"
   }
 }
