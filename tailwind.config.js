@@ -1,7 +1,10 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   purge: false,
   theme: {
     extend: {},
+    colors: colors,
     boxShadow: {
       xs: '0 0 0 1px rgba(0, 0, 0, 0.05)',
       sm: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
